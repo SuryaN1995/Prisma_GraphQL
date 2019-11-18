@@ -1,0 +1,16 @@
+{
+  "name": "prisma_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Surya N <surya.1447@gmail.com>",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "lint": "prettier --check 'src/**/**.js'",
+    "test": "NODE_ENV=test jest"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^1.19.4"
+  }
+}
